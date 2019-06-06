@@ -1,0 +1,13 @@
+{
+    "name": "tazman/core",
+    "autoload": {
+        "psr-4": {
+            "Taqat\\Tazman\\Core\\": "../core/src/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.6",
+        "acelaya/doctrine-enum-type": "^2.2",
+        "symfony/http-foundation": "^4.3"
+    }
+}
